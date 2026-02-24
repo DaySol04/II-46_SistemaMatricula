@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Matricula
+Partial Public Class Registro_Estudiantes
 
     '''<summary>
     '''Control lblNombre.
@@ -68,22 +68,76 @@ Partial Public Class Matricula
     Protected WithEvents txtCedula As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblFechaVencimiento.
+    '''Control lblFechaNacimiento.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblFechaVencimiento As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lblFechaNacimiento As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control txtFechaVencimiento.
+    '''Control txtFechaNacimiento.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtFechaVencimiento As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtFechaNacimiento As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control lblProvincia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblProvincia As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control txtProvincia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtProvincia As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control lblCiudad.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblCiudad As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control txtCiudad.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtCiudad As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control lblTelefono.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblTelefono As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control txtTelefono.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtTelefono As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control lblCorreo.
@@ -104,29 +158,20 @@ Partial Public Class Matricula
     Protected WithEvents txtCorreo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control lblCarrera.
+    '''Control btnGuardar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lblCarrera As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents btnGuardar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control ddlCarrera.
+    '''Control gvEstudiantes.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlCarrera As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control btnMatricular.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnMatricular As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents gvEstudiantes As Global.System.Web.UI.WebControls.GridView
 End Class
