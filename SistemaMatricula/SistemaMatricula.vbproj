@@ -148,6 +148,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Inicio.aspx" />
+    <Content Include="Inicio.css" />
+    <Content Include="Inicio1.aspx" />
     <Content Include="Registro Estudiantes.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -246,6 +248,13 @@
     </Compile>
     <Compile Include="Inicio.aspx.vb">
       <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Inicio1.aspx.designer.vb">
+      <DependentUpon>Inicio1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio1.aspx.vb">
+      <DependentUpon>Inicio1.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Models\Estudiante.vb" />
