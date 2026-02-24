@@ -147,10 +147,12 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="gv.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="Inicio.css" />
     <Content Include="Inicio1.aspx" />
     <Content Include="Registro Estudiantes.aspx" />
+    <Content Include="RegistroProfesores.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -243,6 +245,13 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="gv.aspx.designer.vb">
+      <DependentUpon>gv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gv.aspx.vb">
+      <DependentUpon>gv.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Inicio.aspx.designer.vb">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
@@ -285,6 +294,13 @@
     </Compile>
     <Compile Include="Registro Estudiantes.aspx.vb">
       <DependentUpon>Registro Estudiantes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RegistroProfesores.aspx.designer.vb">
+      <DependentUpon>RegistroProfesores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroProfesores.aspx.vb">
+      <DependentUpon>RegistroProfesores.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">

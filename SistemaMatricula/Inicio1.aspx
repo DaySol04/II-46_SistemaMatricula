@@ -12,6 +12,14 @@
 
         <!-- Botón para Carreras -->
         <asp:HyperLink ID="lnkCarreras" runat="server" NavigateUrl="~/Carreras.aspx" Text="Listado de Carreras" CssClass="btn btn-green" />
+
+        <!-- Botón para Carreras -->
+        <asp:HyperLink ID="linkProfesores" runat="server" NavigateUrl="~/RegistroProfesores.aspx" Text="Registro de Profesores" CssClass="btn" />
+
+        <!-- Botón para Carreras -->
+        <asp:HyperLink ID="linkGv" runat="server" NavigateUrl="~/gv.aspx" Text="Eliminar" CssClass="btn btn-green" />
+
+
     </div>
 
 </asp:Content>

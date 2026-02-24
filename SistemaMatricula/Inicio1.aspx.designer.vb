@@ -30,4 +30,22 @@ Partial Public Class Inicio1
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lnkCarreras As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''Control linkProfesores.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents linkProfesores As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''Control linkGv.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents linkGv As Global.System.Web.UI.WebControls.HyperLink
 End Class
