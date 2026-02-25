@@ -1,22 +1,24 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Carreras.aspx.vb" Inherits="SistemaMatricula.Carreras" %>
+﻿<%@ Page Title="Carreras" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Carreras.aspx.vb" Inherits="SistemaMatricula.Carreras" %>
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Carreras</title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <h2>Carreras disponibles</h2>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="Content/Inicio.css" rel="stylesheet" /> 
 
-            <p>Derecho</p>
-            <p>Medicina</p>
-            <p>Educación</p>
-            <p>Ingeniería</p>
-            <p>Administración</p>
+    <div class="main-container">
+        <div class="form-wrapper">
+            <div class="form-header">
+                <h2 class="form-title">Carreras disponibles</h2>
+                <p class="form-description">Estas son las opciones académicas que ofrece la institución</p>
+            </div>
+
+            <ul class="career-list">
+                <li>Derecho</li>
+                <li>Medicina</li>
+                <li>Educación</li>
+                <li>Ingeniería</li>
+                <li>Administración</li>
+            </ul>
         </div>
-    </form>
-</body>
-</html>
+    </div>
+</asp:Content>
+
+

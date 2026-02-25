@@ -146,6 +146,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="Formularios.css" />
     <Content Include="Global.asax" />
     <Content Include="gv.aspx" />
     <Content Include="Inicio.aspx" />
